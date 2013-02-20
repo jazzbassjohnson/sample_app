@@ -8,9 +8,7 @@
     <%= render 'layouts/shim' %>    
   </head>
 
-<% flash.each do |key, value| %>
-        <%= content_tag(:div, value, class: "alert alert-#{key}") %>
-      <% end %>
+
 
   <body>
     <%= render 'layouts/header' %>
